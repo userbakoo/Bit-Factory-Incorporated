@@ -16,10 +16,10 @@ Compile producent.c with buffer.c and buffer.h.<br/>
 <br/>
 Producent(server):<br/>
 -p <float> : data production rate in 2662B per second<br/>
-[<addr>:]port : producent address [default value: "localhost"]<br/>
-  <br/>
+[\<addr\>:]port : producent address [default value: "localhost"]<br/>
+<br/>
 Konsument(client):<br/>
 -c <int> : client storage capacity in blocks of 30 KiB<br/>
 -p <float> : data reading rate in 4435B per second<br/>
 -d <float> : data degradation rate in 819B per second<br/>
-[<addr>:]port : producent address [default value: "localhost"]<br/>
+[\<addr\>:]port : producent address [default value: "localhost"]<br/>
